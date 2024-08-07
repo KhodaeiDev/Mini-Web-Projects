@@ -16,12 +16,23 @@ let resetButton = document.querySelector(".resetButton");
 let changeButton = document.querySelector(".changeButton");
 
 function convert() {
-  //
+  let tempValue = converter.value;
+  let tempResult = null;
+
+  if (celsius.innerHTML === "°C") {
+    tempResult = ((9 * tempValue) / 5 + 32).toFixed(2);
+    result.innerHTML = `${tempValue} °C = ${tempResult} °F`;
+  } else {
+    tempResult = (((tempValue - 32) * 5) / 9).toFixed(2);
+    result.innerHTML = `${tempValue} °F = ${tempResult} °C`;
+  }
 }
+
 function reset() {
   result.innerHTML = "";
   converter.value = "";
 }
+
 function swap() {
   if (celsius.innerHTML === "°C") {
     celsius.innerHTML = f;
