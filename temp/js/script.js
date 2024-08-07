@@ -15,6 +15,7 @@ let convertButton = document.querySelector(".convertButton");
 let resetButton = document.querySelector(".resetButton");
 let changeButton = document.querySelector(".changeButton");
 
+//* convert button func
 function convert() {
   let tempValue = converter.value || 0;
   let tempResult = null;
@@ -28,12 +29,17 @@ function convert() {
   }
 }
 
+//* reset button func
 function reset() {
   result.innerHTML = "";
   converter.value = "";
 }
 
+//* change button func
 function swap() {
+  result.innerHTML = "";
+  converter.value = "";
+
   if (celsius.innerHTML === "°C") {
     celsius.innerHTML = f;
     fahrenheit.innerHTML = c;
