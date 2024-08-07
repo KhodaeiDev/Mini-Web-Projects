@@ -16,7 +16,7 @@ let resetButton = document.querySelector(".resetButton");
 let changeButton = document.querySelector(".changeButton");
 
 function convert() {
-  let tempValue = converter.value;
+  let tempValue = converter.value || 0;
   let tempResult = null;
 
   if (celsius.innerHTML === "°C") {
