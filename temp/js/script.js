@@ -19,7 +19,8 @@ function convert() {
   //
 }
 function reset() {
-  //
+  result.innerHTML = "";
+  converter.value = "";
 }
 function swap() {
   if (celsius.innerHTML === "°C") {
