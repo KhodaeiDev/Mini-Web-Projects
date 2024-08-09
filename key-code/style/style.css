@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: IranSans;
+}
+
+@font-face {
+  font-family: IranSans;
+  src: url(../fonts/IRANSansWeb.ttf);
+}
+
+body {
+  background: #d1d0d0;
+}
+
+.container {
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#heading h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#ascii {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: rgb(100, 98, 98);
+}
+
+#infos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-box {
+  text-align: center;
+  width: 20%;
+  border: 1px solid #ccc;
+}
+
+.info-box h3 {
+  background: #b9e9ff;
+  border-bottom: 2px solid #b9e9ff;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.info-box h2 {
+  background: #fff;
+  padding: 5px;
+}
+
+#heading,
+#ascii,
+#infos {
+  display: none;
+  flex-wrap: wrap;
+}
+
+#starter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  height: 100vh;
+}
+
+#starter #starter-text {
+  background: #fff;
+  padding: 10px;
+}
+
+/* ////////// */
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  #starter {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 480px;
+  }
+  #starter {
+    font-size: 18px;
+  }
+  #heading h1 {
+    font-size: 37px;
+  }
+  #ascii {
+    font-size: 80px;
+  }
+  .info-box {
+    width: 35%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    max-width: 320px;
+  }
+  #starter {
+    font-size: 17px;
+  }
+  #heading h1 {
+    font-size: 25px;
+  }
+  #ascii {
+    font-size: 70px;
+  }
+  .info-box {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    max-width: 100%;
+  }
+  #starter {
+    font-size: 14px;
+  }
+  #heading h1 {
+    font-size: 16px;
+  }
+  #ascii {
+    font-size: 40px;
+  }
+  .info-box {
+    width: 70%;
+  }
+  .info-box h3 {
+    font-size: 1rem;
+  }
+}
