@@ -9,4 +9,4 @@ Welcome to the **Mini Web PROJECTS**! 🎉 This repository contains Mini Web pro
 
 |  No | Project         | Source Code                                                          | Live Preview         |
 | :-: | ----------------|----------------------------------------------------------------------|-----------------------------------------------------
-| 01  | Personal Website     | [View Code]()      | [Preview Site](https://khodaeidev.github.io/mini-Web-Projects/note-app/)
+| 01  | Personal Website     | [View Code]()      | [Preview Site](https://khodaeidev.github.io/Mini-Web-Projects/note-app/)
