@@ -37,6 +37,11 @@ function addNote() {
 
   inputElem.value = "";
   noteList.append(newNote);
+
+  //! Delete Note
+  newNote.addEventListener("click", function () {
+    newNote.remove();
+  });
 }
 
 //* Clear Input
