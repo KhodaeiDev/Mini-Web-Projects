@@ -6,6 +6,9 @@ let colors = $.querySelectorAll(".color-box");
 let noteList = $.getElementById("listed");
 
 function addNote() {
+  if (inputElem.value === "") {
+    return alert("Please write a note ");
+  }
   let note = inputElem.value;
 
   let newNote = document.createElement("div");
@@ -17,8 +20,14 @@ function addNote() {
   noteValue.innerText = note;
   newNote.append(noteValue);
 
-  inputElem.value = " ";
+  inputElem.value = "";
   noteList.append(newNote);
 }
 
+function clearInput() {
+  inputElem.value = "";
+  inputElem.style.backgroundColor = "#fff";
+}
+
 saveBtn.addEventListener("click", addNote);
+deleteBtn.addEventListener("click", clearInput);
