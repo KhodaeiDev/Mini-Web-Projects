@@ -18,4 +18,6 @@ Welcome to the **Mini Web PROJECTS**! 🎉 This repository contains Mini Web pro
 ---
 ### 4 - Temperature conversion
 #### Temperature conversion project from Celsius to Fahrenheit and vice versa --> [View Code](https://github.com/KhodaeiDev/Mini-Web-Projects/tree/master/temp) | [Preview Site](https://khodaeidev.github.io/Mini-Web-Projects/temp/)
-
+---
+### 5 - Music Player
+#### A simple music player mini project --> [View Code](https://github.com/KhodaeiDev/Mini-Web-Projects/tree/master/music-player) | [Preview Site](https://khodaeidev.github.io/Mini-Web-Projects/music-player/)
