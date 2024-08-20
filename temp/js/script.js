@@ -17,15 +17,24 @@ let changeButton = document.querySelector(".changeButton");
 
 //* convert button func
 function convert() {
-  let tempValue = converter.value || 0;
+  let tempValue = converter.value;
   let tempResult = null;
+  let value = converter.value;
 
-  if (celsius.innerHTML === "°C") {
-    tempResult = ((9 * tempValue) / 5 + 32).toFixed(2);
-    result.innerHTML = `${tempValue} °C = ${tempResult} °F`;
+  console.log(typeof Number(converter.value));
+
+  if (!isNaN(value) && value !== "") {
+    result.style.color = "#fff561";
+    if (celsius.innerHTML === "°C") {
+      tempResult = ((9 * tempValue) / 5 + 32).toFixed(2);
+      result.innerHTML = `${tempValue} °C = ${tempResult} °F`;
+    } else {
+      tempResult = (((tempValue - 32) * 5) / 9).toFixed(2);
+      result.innerHTML = `${tempValue} °F = ${tempResult} °C`;
+    }
   } else {
-    tempResult = (((tempValue - 32) * 5) / 9).toFixed(2);
-    result.innerHTML = `${tempValue} °F = ${tempResult} °C`;
+    result.innerHTML = "Please Enter Number !!";
+    result.style.color = "#a33737";
   }
 }
 
