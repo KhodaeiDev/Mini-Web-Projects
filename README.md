@@ -21,3 +21,6 @@ Welcome to the **Mini Web PROJECTS**! 🎉 This repository contains Mini Web pro
 ---
 ### 5 - Music Player
 #### A simple music player mini project --> [View Code](https://github.com/KhodaeiDev/Mini-Web-Projects/tree/master/music-player) | [Preview Site](https://khodaeidev.github.io/Mini-Web-Projects/music-player/)
+---
+### 6 - Screen Light
+#### Screen light change mini project --> [View Code](https://github.com/KhodaeiDev/Mini-Web-Projects/tree/master/screen-light) | [Preview Site](https://khodaeidev.github.io/Mini-Web-Projects/screen-light/)
