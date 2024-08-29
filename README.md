@@ -26,5 +26,5 @@ Welcome to the **Mini Web PROJECTS**! 🎉 This repository contains Mini Web pro
 #### Screen light change mini project --> [View Code](https://github.com/KhodaeiDev/Mini-Web-Projects/tree/master/screen-light) | [Preview Site](https://khodaeidev.github.io/Mini-Web-Projects/screen-light/)
 ---
 ### 7 - Bmi Calculator
-#### Body BMI calculation project --> [View Code](https://github.com/KhodaeiDev/Mini-Web-Projects/tree/master/bmi-calculator) | [Preview Site](https://khodaeidev.github.io/Mini-Web-Projects/bmi-calculator/)
+#### Body BMI calculation project -->  [View Code](https://github.com/KhodaeiDev/Mini-Web-Projects/tree/master/bmi-calculator) | [Preview Site](https://khodaeidev.github.io/Mini-Web-Projects/bmi-calculator/)
 
