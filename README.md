@@ -1,6 +1,3 @@
-# In Development Stage ... ✌️❤️
-
-
 # Mini Web PROJECTS 🚀
 
 Welcome to the **Mini Web PROJECTS**! 🎉 This repository contains Mini Web projects for Javascript exercise created using HTML, CSS, and JS.
